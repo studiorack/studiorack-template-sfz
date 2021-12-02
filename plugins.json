@@ -1,0 +1,41 @@
+{
+  "plugins": [
+    {
+      "author": "Kim T",
+      "homepage": "https://github.com/studiorack/studiorack-template-sfz/",
+      "name": "Instrument",
+      "description": "Example instrument",
+      "tags": [
+        "Example",
+        "Instrument",
+        "Template",
+        "sfz"
+      ],
+      "version": "0.0.1",
+      "id": "instrument",
+      "date": "2021-12-01T07:00:00.000Z",
+      "files": {
+        "audio": {
+          "name": "instrument.flac",
+          "size": 57210
+        },
+        "image": {
+          "name": "instrument.jpg",
+          "size": 79890
+        },
+        "linux": {
+          "name": "instrument.zip",
+          "size": 234000
+        },
+        "mac": {
+          "name": "instrument.zip",
+          "size": 234000
+        },
+        "win": {
+          "name": "instrument.zip",
+          "size": 234000
+        }
+      }
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+  ]
+}
