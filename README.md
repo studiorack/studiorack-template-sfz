@@ -23,7 +23,7 @@ Add your .flac sample files in:
 
 Then update the .sfz file with the sample paths:
 
-    ./Instrument.sfz
+    ./studiorack-template-sfz.sfz
 
 Read more about the [SFZ format](https://sfzformat.com).
 
@@ -36,23 +36,23 @@ Install the linter using:
 
 Then run using:
 
-    sfzlint Instrument.sfz
+    sfzlint studiorack-template-sfz.sfz
 
 
 ## Build (manual)
 
 Compress lossless version:
 
-    zip -r ./instrument.zip *
+    zip -r ./studiorack-template-sfz.zip *
 
 Create lossy version:
 
     for i in ./Samples/*.flac; do ffmpeg -i "$i" -b:a 128k "${i%.*}.ogg"; done
-    sed -i 's/flac/ogg/g' 'Instrument.sfz'
+    sed -i 's/flac/ogg/g' 'studiorack-template-sfz.sfz'
 
 Compress lossy version:
 
-    zip -r ./instrument-lossy.zip *
+    zip -r ./studiorack-template-sfz-lossy.zip *
 
 
 ## Build (automatic)

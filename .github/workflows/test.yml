@@ -17,4 +17,4 @@ jobs:
 
       - name: Lint
         run: |
-          sfzlint "Instrument.sfz"
+          sfzlint "${{ github.event.repository.name }}.sfz"
