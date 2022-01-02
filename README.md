@@ -10,7 +10,7 @@ Audio plugin starter template using SFZ to build bundles using:
 
 ## Installation
 
-Install ffmpeg in order to covert .flac files to .ogg:
+Install ffmpeg in order to convert .flac files to .ogg:
 
     https://www.ffmpeg.org/download.html
 
@@ -32,7 +32,7 @@ Read more about the [SFZ format](https://sfzformat.com).
 
 Install the linter using:
 
-    pip install git+git://github.com/kmturley/sfzlint.git
+    pip install git+git://github.com/jisaacstone/sfzlint.git
 
 Then run using:
 

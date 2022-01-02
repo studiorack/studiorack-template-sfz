@@ -17,4 +17,4 @@ jobs:
 
       - name: Lint
         run: |
-          sfzlint "${{ github.event.repository.name }}.sfz"
+          sfzlint .
