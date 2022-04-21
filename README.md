@@ -32,7 +32,7 @@ Read more about the [SFZ format](https://sfzformat.com).
 
 Install the linter using:
 
-    pip install git+git://github.com/jisaacstone/sfzlint.git
+    pip install git+https://github.com/jisaacstone/sfzlint.git
 
 Then run using:
 
